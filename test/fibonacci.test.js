@@ -2,7 +2,7 @@
 const nFibonacci = require('../src/fibonacci.js');
   
   describe('nFibonacci(n)', function() {
-    it('debe devolver el número de la serie de fibonacci correspondiente', () => {
+    it('Should return the number of the corresponding fibonacci series', () => {
       const fib1 = nFibonacci(0);
       const fib2 = nFibonacci(3);
       const fib3 = nFibonacci(6);
